@@ -19,7 +19,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5174",
-        "https://grain-conference-intelligence-alpha.vercel.app/",
+        "https://grain-conference-intelligence-alpha.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
